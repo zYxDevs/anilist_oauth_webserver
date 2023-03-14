@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {"src": "/webauth.py", "use": "@vercel/python"}
+  ],
+  "routes": [
+    {"src": "/(.*)", "dest": "webauth.py"}
+  ]
+}
